@@ -1,0 +1,7 @@
+from PIL import image , imagefilter
+im=image.open(123.jpg)
+im.show()
+
+from PIL import ImageEnhance
+enh=ImageEnhance.Contrast(im)
+enh.enhance(1.8).show("30% more contrast")
